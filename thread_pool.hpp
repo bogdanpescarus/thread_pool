@@ -3,6 +3,8 @@
 #include <functional>
 #include <vector>
 
+#pragma once
+
 #define max_threads 8
 
 class ThreadPool {
