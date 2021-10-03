@@ -7,6 +7,8 @@
 
 class ThreadPool {
 	private:
+		std::queue<std::function<void()> mTasks;
+		std::vector<std::thread> mThreads;
 		
 	public:
 		ThreadPool();
